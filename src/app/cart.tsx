@@ -31,7 +31,7 @@ export default function Cart() {
   function handleProductRemove(product: ProductCartProps) {
     Alert.alert('Remover', `Desejar remover ${product.title} do carrinho?`, [
       {
-        text: 'Canelar'
+        text: 'Cancelar'
       },
       {
         text: 'Remover',
